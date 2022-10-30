@@ -1,0 +1,112 @@
+<!-- Every html file starts with html and with html tags....ctrl + k + c--> 
+
+<html>
+    <head>
+        <!-- Internal CSS -->
+<!-- to provide information about application, includes external resources(js,css) -->
+<link rel="stylesheet" href="Signup.css">
+   <style>
+    /* Where to apply this css, for which element */
+    /* 1. > ID selector */
+    /* It will apply single element. */
+    #signUpHeader{
+        font-size: 40px;
+        color: red;
+    }
+
+    /* 2. TagName Selector */
+    /* Apply to all lebel elements */
+    label {
+        background-color: yellow;
+    }
+
+    h4 {
+        background-color: brown;
+    }
+   </style>
+    </head>
+    <!-- Includes your visible part of web page -->
+    <img src="https://cdn-icons-png.flaticon.com/512/2875/2875331.png" alt="google-office">
+    <body>
+<!-- h1,h2,h3,h4,h5,h6 -->
+<h1 id="signUpHeader" style="color: green;">Please SignUp !!</h1> 
+<!-- Inline CSS have higher priority -->
+<h4 class="bg-green">Its quick and easy</h4>
+<!-- Create form and controls inside form -->
+<!-- A container contains form controls -->
+
+<form>
+    <!-- self closing tags -->
+    <!-- Attribute => [name="value"] -->
+    <label for="">Enter First Name</label>
+    <br>
+<input type="text" name="fname" placeholder="Your First Name"/>
+<br>
+    <label for="">Enter Last Name</label>
+    <br>
+<input type="text" name="fname" placeholder="Your Last Name"/>
+<br>
+<label for="email">Enter Email</label>
+<br>
+<input type="email" name="email" placeholder="Your Email">
+<br>
+<label for="password">Enter Password</label>
+<br>
+<input type="password" name="password" placeholder="Your Password">
+<br>
+<label for="dob">Enter Date Of Birth</label>
+<br>
+<input type="date" name="dob">
+<br>
+<label for="mobile">Enter Mobile Phone</label>
+<br>
+<input type="number" name="number">
+<br>
+<label for="gender">Please Select Your Gender</label>
+
+<!-- <input type="radio" name="gender"> -->
+
+<br><label for="Male">Male</label>
+
+<input type="radio" name="gender">
+
+<br>
+<label for="Male">Female</label>
+
+<input type="radio" name="gender">
+<br>
+<label for="Male">Other</label>
+
+<input type="radio" name="gender">
+<br>
+<!-- TextArea : Mulriline text -->
+<label for="address">Enter Your Address</label>
+<br>
+<textarea name="address" id="30" cols="30" rows="10" placeholder="Enter Address"></textarea>
+<br>
+<label for="pincode">Enter Pincode</label>
+<br>
+<input type="text" name="pincode">
+<br>
+<label for="city">Select Your City</label>
+<br>
+<select name="city" id="">
+    <option value="0">Mumbai</option>
+    <option value="0">Hydrabad</option>
+    <option value="0">Bangalore</option>
+    <option value="0">New Delhi</option>
+    <option value="0">Kolkata</option>
+    <option value="0">Malda</option>
+</select>
+<br>
+<input type="checkbox" name="ck">
+<label for="tc">Terms & Condition</label>
+<br>
+<!-- buttons -->
+<input type="submit" value="Sign Up">
+<input type="button" name="save" value="Sign Up">
+<br>
+<button class="bg-green" type="reset">Clear</button>
+</form>
+    </body>
+</html>

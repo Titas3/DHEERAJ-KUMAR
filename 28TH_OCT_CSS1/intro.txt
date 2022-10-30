@@ -1,0 +1,49 @@
+CSS.
+
+1. What is CSS ?
+   Cascaded Style Sheet?
+   - Sheets which contains styles .
+   - Styling HTML pages .
+   - Cascaded?
+   The cascade is an algorithm that defines how user agents 
+   combine property values originating from different sources.
+    The cascade defines the origin and layer that takes precedence
+     when declarations in more than one origin or
+    cascade layer set a value for a property on an element.
+2. Why  we need CSS ?
+  - To improves presentation of page.
+  - To give it better look and feel.
+  - To improves UX -User Experience.
+
+
+3. What does CSS looks like?
+  [syntax] =>
+  propertyName : valueForProperty;
+  color:red;
+4. How to and where to use CSS ?
+--Multiple ways [Selectors] to write css.
+  => used to select elements to which css will apply
+  => id, tag, class, global.
+
+
+--Multiple places to write CSS.
+    1).Inline CSS. => 
+    Writing CSS inside elements;
+      ex: style attribute
+      style belongs to html .
+      you should avoid doing this.
+      It mixes 2 responsibilites in 1 module.
+      Against SRP (Single responsibilites principle)
+      ((Inline css have more priority))
+     2) Internal CSS => CSS in same file as html but not inline. 
+     2) External CSS => Separate CSS file.
+
+priority wise--->>>
+
+Inline.
+Internal.
+
+Id
+class
+Tag
+* has lowest priority
