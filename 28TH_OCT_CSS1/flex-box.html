@@ -1,0 +1,39 @@
+<html>
+    <head>
+  <style>
+    .mainDiv{
+        border: 2px solid red;
+        /* It creates a flexible container where children items can be moved around */
+        display: flex;
+        height: 500px;
+        /* justify-content: center; */
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    /* justify-content - primary axis*/
+    /* align-item - secondary axis*/
+    .childDiv{
+        border: 1px solid blue;
+        height: 100px;
+        width: 100px;
+    }
+    .firstDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  </style>
+    </head>
+
+    <body>
+        <div class="mainDiv">
+        <div class="childDiv firstDiv"><span>Text1</span> </div>
+        <div class="childDiv"></div>
+        <div class="childDiv"></div>
+        <div class="childDiv"></div>
+        <div class="childDiv"></div>
+
+        </div>
+    </body>
+</html>
