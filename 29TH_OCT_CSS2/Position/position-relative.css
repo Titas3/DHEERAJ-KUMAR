@@ -1,0 +1,52 @@
+/* div{ */
+    /*  */
+    /* position: relative;
+    margin-top: 100px;
+    margin-left: 30px; */
+/* } */
+.mainDiv{
+    border: 2px solid red;
+    /* It creates a flexible container where children items can be moved around */
+    display: flex;
+    height: 500px;
+    /* height: 5000px;// for sticky  position check */
+    margin: 50px;
+    /* justify-content: center; */
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+}
+
+/* justify-content - primary axis*/
+/* align-item - secondary axis*/
+.childDiv{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+.secondDiv{
+    /* relative to its own original position: ; */
+    position: relative;
+    top: 20px;
+    left:20px
+}
+.thirdDiv{
+    /* relative to viewport */
+    /* viewport is area which show in browser */
+    position: fixed;
+    top: 20px;
+    left:20px
+}
+.fourthDiv{
+    /* it is relative to its non-static parent or wiewport */
+    position: absolute;
+    top: 10px;
+    left:10px
+}
+.fifthDiv{
+    
+    position: sticky;
+    top: 10px;
+    left:10px
+}
