@@ -1,0 +1,12 @@
+.container{
+    margin: 80px !important;
+}
+
+form{
+    margin-bottom: 62px;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+}
