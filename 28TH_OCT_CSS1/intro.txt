@@ -47,3 +47,11 @@ Id
 class
 Tag
 * has lowest priority
+
+5. Flex Layout - Done.
+6. Display - done
+7. Position - done.
+8. Responsive Design
+-- Design which adapts to multiple devices.
+def- to create such a design which is adaptable to all these devices is known as responsive design.
+9. Animation

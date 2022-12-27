@@ -1,0 +1,38 @@
+App Steps:
+
+1.Create form. - Done.
+2.Read text box data on click of button.
+  2.1 get textbox.
+3.Display todo text button (edit, delete) to todo list.
+   3.1 Create todo list.
+   3.2 Add text to todo list.
+   3.3 Create List Item.
+   3.4 Add edit button to todo list item. 
+   3.5 Add delete button to todo list item.
+   3.6 Add listitem to the list.
+4. On click of edit.
+   4.1 convert text into a textbox.
+   4.2 on click of edit again, update the text in list.
+5. On click of delete  remove todo item from the list.
+
+Learning:-->
+
+How to handle form submit event? - Done.
+How to acces element from DOM? Done. Done.
+How to read value of an element. Done.
+
+ONSUBMIT def:- onsubmit is a event on form  which will be raised 
+      by the browser when we click on submit button.
+
+
+      What is DOM ??
+      Document Object Model.
+      Def: The Document Object Model (DOM) is a programming interface for web documents.
+       It represents the page so that programs can change the document structure, style, and content. The DOM represents 
+      the document as nodes and objects; that way, programming languages can interact with the page.
+
+Tree Data Structure to structre html page.
+                    HTML.
+        HEAD                    BODY
+LINK            SCRIPT               DIV.
+                                 FORM.   FORM.

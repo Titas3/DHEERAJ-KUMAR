@@ -1,0 +1,107 @@
+<!-- Every html file starts with html and with html tags....ctrl + k + c-->
+
+<html>
+
+<head>
+    <!-- Internal CSS -->
+    <!-- to provide information about application, includes external resources(js,css) -->
+    <link rel="stylesheet" href="Signup.css">
+    <style>
+
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img width="65%" src="https://cdn-icons-png.flaticon.com/512/2875/2875331.png" alt="google-office">
+        </div>
+        <div class="right">
+            <!-- h1,h2,h3,h4,h5,h6 -->
+            <h1 id="signUpHeader" style="color: green;">Please SignUp !!</h1>
+            <!-- Inline CSS have higher priority -->
+
+            <h4 class="bg-green">Its quick and easy</h4>
+            <!-- Create form and controls inside form -->
+            <!-- A container contains form controls -->
+            <form>
+                <!-- self closing tags -->
+                <!-- Attribute => [name="value"] -->
+                <label for="">Enter First Name</label>
+
+                <input type="text" name="fname" placeholder="Your First Name" />
+
+                <label for="">Enter Last Name</label>
+
+                <input type="text" name="fname" placeholder="Your Last Name" />
+
+                <label for="email">Enter Email</label>
+
+                <input type="email" name="email" placeholder="Your Email">
+
+                <label for="password">Enter Password</label>
+
+                <input type="password" name="password" placeholder="Your Password">
+
+                <label for="dob">Enter Date Of Birth</label>
+
+                <input type="date" name="dob">
+
+                <label for="mobile">Enter Mobile Phone</label>
+
+                <input type="number" name="number">
+
+                <label for="gender">Please Select Your Gender</label>
+
+                <!-- <input type="radio" name="gender"> -->
+
+                <label class="label-radio" for="Male">Male</label>
+
+                <input class="input-radio" type="radio" name="gender">
+
+                <label class="label-radio" for="Male">Female</label>
+
+                <input class="input-radio" type="radio" name="gender">
+
+                <label class="label-radio" for="Male">Other</label>
+
+                <input class="input-radio" type="radio" name="gender">
+
+                <!-- TextArea : Mulriline text -->
+                <label for="address">Enter Your Address</label>
+
+                <textarea name="address" id="30" cols="30" rows="10" placeholder="Enter Address"></textarea>
+
+                <label for="pincode">Enter Pincode</label>
+
+                <input type="text" name="pincode">
+
+                <label for="city">Select Your City</label>
+
+                <select name="city" id="">
+                    <option value="0">Mumbai</option>
+                    <option value="0">Hydrabad</option>
+                    <option value="0">Bangalore</option>
+                    <option value="0">New Delhi</option>
+                    <option value="0">Kolkata</option>
+                    <option value="0">Malda</option>
+                </select>
+
+                <input class="input-check" type="checkbox" name="ck">
+                <label class="label-check" for="tc">Terms & Condition</label>
+
+                <!-- buttons -->
+                <!-- <input type="submit" value="Sign Up"> -->
+                <input type="button" name="save" value="Sign Up">
+
+                <button class="bg-green" type="reset">Clear</button>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
